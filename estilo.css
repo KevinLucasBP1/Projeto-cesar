@@ -46,8 +46,25 @@ nav > a{
     transition-duration: 0.5s;
 }
 
+#habilidades{
+    padding: 12px;
+    margin: auto;
+    background-color: #939393;
+    color: white;
+    border-radius: 6px;
+}
+
+
 #habilidades > h1{
-    color: blue;
+    color: #802626;
+}
+
+#habilidades > p{
+    font-size: 1.2em;
+    letter-spacing: 1.3px;
+    margin: auto;
+    padding: 2px;
+    text-align: justify;
 }
 
 a{
@@ -59,11 +76,6 @@ h1{
     text-align: center;
 }
 
-#habilidades > p{
-    margin: auto;
-    padding: 2px;
-    
-}
 
 p{
     text-align: center;
