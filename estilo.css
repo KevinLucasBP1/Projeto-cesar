@@ -29,6 +29,10 @@ h1{
     text-align: center;
 }
 
+#habilidades{
+    text-size-adjust: 10px;
+}
+
 p{
     text-align: center;
 }
@@ -36,4 +40,5 @@ p{
 footer{
     background-color: black;
     color: white;
+    margin: auto;
 }
