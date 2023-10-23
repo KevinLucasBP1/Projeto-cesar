@@ -61,6 +61,35 @@
                 </p>
         </div>
 
+        <div id="formulario"> 
+            <h1>Contato</h1>
+            <p>Caso tenha tido interesse sobre o meu trabalho estarei disponibilizando abaixo um formulario para entrarmos em contato por favor digite o seu e-mail,nome e alguma mensagem do por que esta entrando em contato.</p>
+
+            <form action="contato.php" method="post" autocomplete="on">
+                <p>
+                    <label for="inome">Nome</label>
+                    <input type="text" name="nome" id="inome" required>
+                </p>
+
+                <p>
+                    <label for="iemail">E-mail</label>
+                    <input type="email" name="email" id="iemail" autocomplete="email" required>
+                </p>
+
+                <p>
+                    <label for="imsg"></label>
+                    <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+
+                </p>
+
+                <p>
+                    <input type="submit" value="Enviar">
+                </p>
+
+            </form>
+
+        </div>
+
     
 
     </main>
