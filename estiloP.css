@@ -7,21 +7,23 @@
 }
 
 html, body{   
-    background-color: white;
+    background-color: rgb(0, 0, 0);
 }
 
 main{
+    padding: 10px;
+    background-color: white;
     margin: auto;
     min-width: 320px;
-    max-width: 1000px;
+    max-width: 1018px;
 }
 
 h1{
     font-size: 2.5em;
     text-align: center;
     color: black;
-    background-color: rgb(223, 111, 111);
-    padding: 10px;
+    background-color: rgb(238, 6, 6);
+    padding: 5px;
     margin: auto;
 }
 
@@ -33,7 +35,7 @@ h2{
 }
 
 p{
-    font-size: 1.6em;
+    font-size: 1.5em;
     margin: auto;
     padding: 2px;
     color: black;
@@ -41,9 +43,23 @@ p{
     text-indent: 20px;
 }
 
-#ruby > h2{
-    font-size: 1.6em;
-    padding: 100px;
-    color: black;
-    text-align: center;
+#pyton{
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+    
+}
+
+#java{
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+
+
+#ruby{
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
 }
