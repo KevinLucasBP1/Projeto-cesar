@@ -14,8 +14,8 @@ main{
     padding: 10px;
     background-color: white;
     margin: auto;
-    min-width: 320px;
-    max-width: 1018px;
+    min-width: 700px;
+    max-width: 1050px;
 }
 
 h1{
@@ -51,6 +51,13 @@ p{
 }
 
 #java{
+    margin: auto;
+    margin-top: 30px;
+    padding: 20px;
+}
+
+
+#ruby{
     margin: auto;
     margin-top: 30px;
     padding: 20px;
