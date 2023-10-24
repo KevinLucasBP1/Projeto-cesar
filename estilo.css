@@ -84,7 +84,7 @@ a:hover{
 }
 
 #habilidades > p{
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: auto;
     padding: 2px;
     text-align: justify;
@@ -95,9 +95,7 @@ a:hover{
     padding: auto;
     margin: auto;
     background-color: white;
-    color: black;
     border-radius: 6px;
-    font-size: 1.2em;
 }
 
 
@@ -108,9 +106,8 @@ a:hover{
 }
 
 #experiencia > p{
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: auto;
-    padding: 2px;
     text-align: justify;
 }
 
@@ -118,9 +115,7 @@ a:hover{
     padding: auto;
     margin: auto;
     background-color: white;
-    color: black;
     border-radius: 6px;
-    font-size: 1.2em;
 }
 
 
@@ -131,9 +126,8 @@ a:hover{
 }
 
 #formacao > p{
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: auto;
-    padding: 2px;
     text-align: justify;
 }
 
@@ -144,9 +138,8 @@ a:hover{
 }
 
 #formulario > p{
-    font-size: 1.2em;
+    font-size: 1.1em;
     margin: auto;
-    padding: 2px;
     text-align: justify;
 }
 
