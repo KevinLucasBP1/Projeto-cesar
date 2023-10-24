@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Site Pessoal</title>
+    <link rel="stylesheet" href="    ">
     <link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -17,7 +18,9 @@
     <a href="#habilidades">Minhas habilidades</a>
     <a href="#experiencia">Experiencia</a>
     <a href="#formacao">Formação academica</a>
+    <a href="#formulario">Contato</a>
     <a href="projetos.html" target="_blank">Meus Projetos</a>
+    
 </nav>
 
     <main>
@@ -65,28 +68,25 @@
             <h1>Contato</h1>
             <p>Caso tenha tido interesse sobre o meu trabalho estarei disponibilizando abaixo um formulario para entrarmos em contato por favor digite o seu e-mail,nome e alguma mensagem do por que esta entrando em contato.</p>
 
-            <form action="contato.php" method="post" autocomplete="on">
-                <p>
-                    <label for="inome">Nome</label>
-                    <input type="text" name="nome" id="inome" required>
-                </p>
-
-                <p>
-                    <label for="iemail">E-mail</label>
-                    <input type="email" name="email" id="iemail" autocomplete="email" required>
-                </p>
-
-                <p>
-                    <label for="imsg"></label>
-                    <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
-
-                </p>
-
-                <p>
-                    <input type="submit" value="Enviar">
-                </p>
-
-            </form>
+            <fieldset>
+                <form action="contato.php" method="post" autocomplete="on">
+                    <p>
+                        <label for="inome">Nome</label>
+                        <input type="text" name="nome" id="inome" required>
+                    </p>
+                    <p>
+                        <label for="iemail">E-mail</label>
+                        <input type="email" name="email" id="iemail" autocomplete="email" required>
+                    </p>
+                    <p>
+                        <label for="imsg"></label>
+                        <textarea name="msg" id="imsg" cols="30" rows="10"></textarea>
+                    </p>
+                    <p>
+                        <input type="submit" value="Enviar">
+                    </p>
+                </form>
+            </fieldset>
 
         </div>
 
@@ -97,7 +97,7 @@
     <footer>
         <p> Site criado por: Kevin Lucas RA:221004004,
             Kalel Silva RA:221003833,
-             Vinicius Cruz RA:221003922
+            Vinicius Cruz RA:221003922
         </p>
     </footer>
 
