@@ -49,10 +49,12 @@ nav{
 }
 
 nav > a{
+    border-top: 2px solid #d6cc75;
+    text-align: center;
+    display: block;
     color: black;
     text-decoration: none;
     padding: 10px;
-    text-decoration: none;
     font-weight: bold;
     transition-duration: 0.5s;
     
