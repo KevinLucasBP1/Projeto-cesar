@@ -10,14 +10,23 @@ html, body{
     background-color: white;
 }
 
+main{
+    margin: auto;
+    min-width: 320px;
+    max-width: 1000px;
+}
+
 h1{
     font-size: 2.5em;
-    color: black;
     text-align: center;
+    color: black;
+    background-color: rgb(223, 111, 111);
+    padding: 10px;
+    margin: auto;
 }
 
 h2{
-    font-size: 1.6em;
+    font-size: 1.8em;
     padding: 10px;
     color: black;
     text-align: center;
@@ -32,7 +41,9 @@ p{
     text-indent: 20px;
 }
 
-div#ruby{
-    width: 150px;
-    display: inline-block;
+#ruby > h2{
+    font-size: 1.6em;
+    padding: 100px;
+    color: black;
+    text-align: center;
 }
