@@ -85,7 +85,6 @@ a:hover{
 
 #habilidades > p{
     font-size: 1.2em;
-    letter-spacing: 1.2px;
     margin: auto;
     padding: 2px;
     text-align: justify;
@@ -110,7 +109,6 @@ a:hover{
 
 #experiencia > p{
     font-size: 1.2em;
-    letter-spacing: 1.2px;
     margin: auto;
     padding: 2px;
     text-align: justify;
@@ -134,7 +132,6 @@ a:hover{
 
 #formacao > p{
     font-size: 1.2em;
-    letter-spacing: 1px;
     margin: auto;
     padding: 2px;
     text-align: justify;
@@ -148,7 +145,6 @@ a:hover{
 
 #formulario > p{
     font-size: 1.2em;
-    letter-spacing: 1px;
     margin: auto;
     padding: 2px;
     text-align: justify;
